@@ -9,6 +9,12 @@ gem 'mysql2', '~> 0.2.17'
 
 gem 'refinerycms-testing'
 
+gem 'refinerycms-blog'
+
+gem 'refinerycms-news'
+
+gem 'refinerycms-portfolio'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
