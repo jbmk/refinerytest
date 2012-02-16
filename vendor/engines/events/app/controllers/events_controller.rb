@@ -20,7 +20,8 @@ class EventsController < ApplicationController
 protected
 
   def find_all_events
-    @events = Event.order('position ASC')
+    # Order by event date
+    @events = Event.order("date DESC")
   end
 
   def find_page

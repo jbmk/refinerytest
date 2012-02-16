@@ -1,0 +1,21 @@
+nb:
+  plugins:
+    fieldtrips:
+      title: Fieldtrips
+  admin:
+    fieldtrips:
+      actions:
+        create_new: Lag en ny Fieldtrip
+        reorder: Endre rekkefølgen på Fieldtrips
+        reorder_done: Ferdig å endre rekkefølgen Fieldtrips
+      records:
+        title: Fieldtrips
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Fieldtrips enda. Klikk på "Lag en ny Fieldtrip" for å legge til din første fieldtrip.
+      fieldtrip:
+        view_live_html: Vis hvordan denne fieldtrip ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne fieldtrip
+        delete: Fjern denne fieldtrip permanent
+  fieldtrips:
+    show:
+      other: Andre Fieldtrips

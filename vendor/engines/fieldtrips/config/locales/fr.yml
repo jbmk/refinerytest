@@ -1,0 +1,25 @@
+fr:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    fieldtrips:
+      title: Fieldtrips
+  admin:
+    fieldtrips:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Fieldtrip
+        reorder: Réordonner les Fieldtrips
+        reorder_done: Fin de réordonnancement des Fieldtrips
+      records:
+        title: Fieldtrips
+        sorry_no_results: "Désolé ! Aucun résultat."
+        no_items_yet: 'Il n''y a actuellement aucun(e) Fieldtrip. Cliquer sur "Créer un(e) nouve(au/l/lle) Fieldtrip" pour créer votre premi(er/ère) fieldtrip.'
+      fieldtrip:
+        view_live_html: Voir ce(t/tte) fieldtrip <br/><em>(Ouvre une nouvelle fenêtre)</em>
+        edit: Modifier ce(t/tte) fieldtrip
+        delete: Supprimer définitivement ce(t/tte) fieldtrip
+  fieldtrips:
+    show:
+      other: Autres Fieldtrips

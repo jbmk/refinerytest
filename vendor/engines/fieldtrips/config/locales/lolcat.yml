@@ -1,0 +1,25 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    fieldtrips:
+      title: Fieldtrips
+  admin:
+    fieldtrips:
+      actions:
+        create_new: CREATE NEW Fieldtrip
+        reorder: REORDR Fieldtrips
+        reorder_done: DUN REORDERIN Fieldtrips
+      records:
+        title: Fieldtrips
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Fieldtrips YET. CLICK "CREATE NEW Fieldtrip" 2 ADD UR FURST fieldtrip.
+      fieldtrip:
+        view_live_html: VIEW DIS fieldtrip LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS fieldtrip
+        delete: REMOOV DIS fieldtrip FOREVR
+  fieldtrips:
+    show:
+      other: OTHR Fieldtrips

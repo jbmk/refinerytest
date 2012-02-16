@@ -1,0 +1,21 @@
+nl:
+  plugins:
+    fieldtrips:
+      title: Fieldtrips
+  admin:
+    fieldtrips:
+      actions:
+        create_new: Maak een nieuwe Fieldtrip
+        reorder: Wijzig de volgorde van de Fieldtrips
+        reorder_done: Klaar met het wijzingen van de volgorde van de Fieldtrips
+      records:
+        title: Fieldtrips
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Fieldtrips. Druk op 'Maak een nieuwe Fieldtrip' om de eerste aan te maken.
+      fieldtrip:
+        view_live_html: Bekijk deze fieldtrip op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze fieldtrip
+        delete: Verwijder deze fieldtrip voor eeuwig
+  fieldtrips:
+    show:
+      other: Andere Fieldtrips

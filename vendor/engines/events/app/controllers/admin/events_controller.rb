@@ -1,7 +1,9 @@
-module Admin
-  class EventsController < Admin::BaseController
+class Admin::EventsController < Admin::BaseController
 
-    crudify :event, :xhr_paging => true
+    crudify :event, :order => "date DESC", 
+		    :xhr_paging => true,
+		    :sortable => false,
+		    :searchable => true
 
   end
-end
+

@@ -7,6 +7,8 @@ source 'http://rubygems.org'
 
 gem 'mysql2', '~> 0.2.17'
 
+gem 'refinerycms-testing'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -72,3 +74,5 @@ gem 'refinerycms-i18n',         '~> 1.0.0'
 # END USER DEFINED
 
 gem 'refinerycms-events', '1.0', :path => 'vendor/engines'
+
+gem 'refinerycms-fieldtrips', '1.0', :path => 'vendor/engines'
